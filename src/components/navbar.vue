@@ -50,7 +50,7 @@
                class="relative inline-block group hover:!text-hov py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:dark:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               SPEAKERS
               <span
-                  class="absolute left-0 -bottom-7 w-0 h-1  bg-hovtransition-all duration-300 group-hover:w-full">
+                  class="absolute left-0 -bottom-7 w-0 h-1  bg-hov transition-all duration-300 group-hover:w-full">
               </span>
             </a>
           </li>
