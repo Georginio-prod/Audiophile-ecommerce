@@ -1,7 +1,7 @@
 <template>
-  <nav class="bg-black border-gray-200 dark:bg-gray-900 pb-2 pt-8">
+  <nav class="bg-black rounded-t-lg dark:bg-gray-900 pb-2 pt-8">
     <div
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:border-b md:border-white md:border-opacity-20 pb-7">
+        class="md:w-full md:px-40 flex flex-wrap items-center justify-between mx-auto p-4 ">
       <!-- SVG Button -->
       <button type="button"
               class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 order-1 md:order-3"
@@ -50,7 +50,7 @@
                class="relative inline-block group hover:!text-hov py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:dark:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               SPEAKERS
               <span
-                  class="absolute left-0 -bottom-7 w-0 h-1  bg-hov transition-all duration-300 group-hover:w-full">
+                  class="absolute left-0 -bottom-7 w-0 h-1  bg-hovtransition-all duration-300 group-hover:w-full">
               </span>
             </a>
           </li>
@@ -66,6 +66,8 @@
         </ul>
       </div>
     </div>
+    <div class="md:border-b md:border-white md:border-opacity-20 pb-3 mx-40"></div>
+
   </nav>
 </template>
 
