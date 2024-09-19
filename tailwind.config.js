@@ -10,6 +10,7 @@ export default {
         extend: {
             colors: {
                 hov: '#d87d4a',
+                main: '#F1F1F1',
             }
         },
     },
