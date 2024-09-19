@@ -11,6 +11,7 @@ export default {
             colors: {
                 hov: '#d87d4a',
                 main: '#F1F1F1',
+                main1: '#979797',
             }
         },
     },
