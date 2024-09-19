@@ -1,7 +1,14 @@
 <script>
-export default {
-  setup() {
+import {ref} from "vue"
 
+export default {
+
+  setup() {
+    const bouton = ref("SEE PRODUCT")
+
+    return {
+      bouton,
+    }
   }
 }
 </script>
@@ -71,12 +78,32 @@ export default {
         <p class="text-sm font-medium opacity-75 text-center lg:text-left">
           Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
         </p>
-        <button class="py-3 px-7 bg-black ">
-          SEE PRODUCT
+        <button class="py-3 px-7 bg-black font-bold text-[13px] lg:mt-3 ">
+          {{ bouton }}
         </button>
       </div>
 
     </div>
+
+
+    <div class="relative flex justify-center items-center w-full lg:flex lg:flex-row mt-6">
+      <div class="absolute inset-0 flex flex-col items-start justify-center text-black z-10 pl-6 lg:pl-24">
+        <p class="text-[28px] font-bold pb-2">ZX7 SPEAKER</p>
+        <button class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3">
+          {{ bouton }}
+        </button>
+      </div>
+
+      <div class="w-full">
+        <img src="/public/assets/home/mobile/image-speaker-zx7.jpg" alt="Background image"
+             class="w-full h-auto object-cover lg:hidden">
+
+        <img src="/public/assets/home/desktop/image-speaker-zx7.jpg" alt="Background image"
+             class="w-full h-auto object-cover lg:block hidden">
+
+      </div>
+    </div>
+
 
   </div>
 
