@@ -72,7 +72,7 @@ export default {
 
       <div
           class="flex flex-col lg:items-start lg:justify-start items-center justify-center px-6 -translate-y-8 text-white gap-6">
-        <p class="font-bold text-4xl text-center tracking-wide pt-4 lg:text-[56px] lg:leading-[56px] lg:text-left">
+        <p class="font-bold text-4xl text-center tracking-[2px] pt-4 lg:text-[56px] lg:leading-[56px] lg:text-left">
           ZX9 SPEAKER
         </p>
         <p class="text-sm font-medium opacity-75 text-center lg:text-left">
@@ -86,9 +86,9 @@ export default {
     </div>
 
 
-    <div class="relative flex justify-center items-center w-full lg:flex lg:flex-row mt-6">
+    <div class="relative flex justify-center items-center w-full lg:flex lg:flex-row mt-6 ">
       <div class="absolute inset-0 flex flex-col items-start justify-center text-black z-10 pl-6 lg:pl-24">
-        <p class="text-[28px] font-bold pb-2">ZX7 SPEAKER</p>
+        <p class="text-[28px] font-bold pb-2 tracking-[2px]">ZX7 SPEAKER</p>
         <button class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3">
           {{ bouton }}
         </button>
@@ -96,11 +96,24 @@ export default {
 
       <div class="w-full">
         <img src="/public/assets/home/mobile/image-speaker-zx7.jpg" alt="Background image"
-             class="w-full h-auto object-cover lg:hidden">
+             class="w-full h-auto object-cover lg:hidden rounded-lg">
 
         <img src="/public/assets/home/desktop/image-speaker-zx7.jpg" alt="Background image"
-             class="w-full h-auto object-cover lg:block hidden">
+             class="w-full h-auto object-cover lg:block hidden rounded-lg">
 
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center justify-center w-full lg:flex lg:flex-row mt-6 gap-6 rounded-lg">
+      <div class="w-full lg:w-1/2">
+        <img src="/public/assets/home/desktop/image-earphones-yx1.jpg" alt="earphones" class="rounded-lg w-full">
+      </div>
+
+      <div class="w-full lg:w-1/2 h-auto object-cover bg-main py-10 pl-6 rounded-lg lg:py-[95px] lg:pl-[95px]">
+        <p class="text-[28px] font-bold pb-3 tracking-[2px]">YX1 EARPHONES</p>
+        <button class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3 ">
+          {{ bouton }}
+        </button>
       </div>
     </div>
 
