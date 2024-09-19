@@ -1,18 +1,20 @@
 <script setup>
 import {RouterLink, RouterView} from 'vue-router'
 import navbar from './components/navbar.vue'
-import Exple from "@/components/exple.vue";
-import HomePage from "@/components/homePage.vue";
-import mainHome from "./components/mainHome.vue";
+import FooterPage from "@/components/footerPage.vue";
+
 </script>
 
 <template>
-  <navbar/>
+  <header>
+    <navbar/>
+  </header>
 
-  <HomePage/>
-
-  <main-home/>
   <RouterView/>
+  <RouterLink/>
+  <footer>
+    <footer-page/>
+  </footer>
 </template>
 
 
