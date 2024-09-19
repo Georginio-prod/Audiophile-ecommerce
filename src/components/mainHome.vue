@@ -7,8 +7,8 @@ export default {
 </script>
 
 <template>
-  <div class="flex justify-center items-center  px-6 py-24">
-    <div class="flex flex-col gap-16 items-center justify-center w-full lg:flex lg:flex-row lg:px-40 lg:gap-7">
+  <div class="flex justify-center items-center flex-col px-6 py-24 lg:px-40">
+    <div class="flex flex-col gap-16 items-center justify-center w-full lg:flex lg:flex-row  lg:gap-7">
       <div class="flex flex-col items-center justify-center bg-main w-full rounded-lg ">
         <img src="/public/assets/image-removebg-preview(41).png" alt="removebg"
              class=" -translate-y-12 drop-shadow-2xl">
@@ -39,6 +39,45 @@ export default {
         </div>
       </div>
     </div>
+
+    <div
+        class="flex flex-col items-center justify-center bg-hov w-full rounded-lg mt-[120px] pt-[55px] pb-8 overflow-hidden lg:flex-row lg:px-28 lg:gap-36">
+
+      <div class="flex flex-col items-center justify-center">
+        <img src="/public/assets/shared/desktop/image-category-thumbnail-speakers.png" alt="thumbnail"
+             style="background-image: url('/public/assets/Group 4.png');
+         background-position: center;
+         background-repeat: no-repeat;"
+             class="flex justify-center items-center lg:hidden"/>
+
+        <div
+            style="background-image: url('/public/assets/Group 4.png');
+         background-position: center;
+         background-repeat: no-repeat;
+         width: 410px;
+         height: 493px;"
+            class="hidden lg:block translate-y-12 justify-center items-center mx-auto">
+          <img src="/public/assets/home/desktop/image-speaker-zx9.png" alt="thumbnail"
+               class="w-full h-full object-contain"/>
+        </div>
+
+      </div>
+
+      <div
+          class="flex flex-col lg:items-start lg:justify-start items-center justify-center px-6 -translate-y-8 text-white gap-6">
+        <p class="font-bold text-4xl text-center tracking-wide pt-4 lg:text-[56px] lg:leading-[56px] lg:text-left">
+          ZX9 SPEAKER
+        </p>
+        <p class="text-sm font-medium opacity-75 text-center lg:text-left">
+          Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
+        </p>
+        <button class="py-3 px-7 bg-black ">
+          SEE PRODUCT
+        </button>
+      </div>
+
+    </div>
+
   </div>
 
 
