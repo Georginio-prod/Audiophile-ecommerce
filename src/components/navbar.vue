@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-black rounded-t-lg dark:bg-gray-900 pb-2 pt-8">
+  <nav class="bg-[#141414] rounded-t-lg dark:bg-gray-900 pb-2 pt-8 z-40">
     <div
         class="md:w-full md:px-40 flex flex-wrap items-center justify-between mx-auto p-4 ">
       <!-- SVG Button -->
@@ -50,7 +50,7 @@
                class="relative inline-block group hover:!text-hov py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:dark:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               SPEAKERS
               <span
-                  class="absolute left-0 -bottom-7 w-0 h-1  bg-hovtransition-all duration-300 group-hover:w-full">
+                  class="absolute left-0 -bottom-7 w-0 h-1  bg-hov transition-all duration-300 group-hover:w-full">
               </span>
             </a>
           </li>
@@ -66,7 +66,7 @@
         </ul>
       </div>
     </div>
-    <div class="md:border-b md:border-white md:border-opacity-20 pb-3 mx-40"></div>
+    <div class="md:border-b md:border-white md:border-opacity-20 pb-3 mx-40 z-40"></div>
 
   </nav>
 </template>
