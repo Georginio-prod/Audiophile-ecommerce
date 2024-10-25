@@ -3,9 +3,9 @@
     <div class="flex flex-col max-w-7xl lg:flex-row lg:gap-16 xl:gap-32">
       <div class=" lg:w-1/2">
         <img
-            src="/public/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
             alt=""
             class="rounded-lg w-full h-auto object-cover"
+            src="/public/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
         >
       </div>
       <div
@@ -23,7 +23,7 @@
         <div>
           <button
               class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-            SEE PRODUCT
+            <RouterLink to="/Product1">SEE PRODUCT</RouterLink>
           </button>
         </div>
 
@@ -33,9 +33,9 @@
     <div class="flex flex-col max-w-7xl lg:flex-row lg:gap-16 xl:gap-32">
       <div class="lg:w-1/2 lg:order-2">
         <img
-            src="/public/assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
             alt=""
             class="rounded-lg w-full h-auto object-cover pb-8"
+            src="/public/assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
         >
       </div>
       <div
@@ -61,9 +61,9 @@
     <div class="flex flex-col max-w-7xl lg:flex-row lg:gap-16 xl:gap-32">
       <div class="lg:w-1/2 ">
         <img
-            src="/public/assets/product-xx59-headphones/mobile/image-category-page-preview.jpg"
             alt=""
             class="rounded-lg w-full h-auto object-cover pb-8"
+            src="/public/assets/product-xx59-headphones/mobile/image-category-page-preview.jpg"
         >
       </div>
       <div
