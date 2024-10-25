@@ -6,5 +6,5 @@
 
 <script setup>
 
-import heade from '@/components/headphone/heade.vue';
+import heade from '@/components/heade.vue';
 </script>
