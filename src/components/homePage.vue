@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <div class="relative flex flex-col lg:flex-row items-center bg-[#141414] min-h-screen lg:px-40 rounded-b-lg">
+  <div class="relative flex flex-col lg:flex-row items-center bg-[#0E0E0E] min-h-screen lg:px-40 rounded-b-lg">
     <!-- Background image for small screens -->
     <div class="absolute inset-0 bg-no-repeat bg-cover bg-center lg:hidden"
          style="background-image: url('/public/assets/Bitmap.png');"></div>
