@@ -1,9 +1,12 @@
 <script>
 import {ref} from "vue"
 import textImg from "./text&Img.vue";
+import imageCpt from "@/components/imageCpt.vue";
+
 export default {
   components: {
-    textImg
+    textImg,
+    imageCpt
   },
   setup() {
     const bouton = ref("SEE PRODUCT")
@@ -17,37 +20,7 @@ export default {
 
 <template>
   <div class="flex justify-center items-center flex-col px-6 py-24 lg:px-40">
-    <div class="flex flex-col gap-16 items-center justify-center w-full lg:flex lg:flex-row  lg:gap-7">
-      <div class="flex flex-col items-center justify-center bg-main w-full h-44 rounded-lg ">
-        <img src="/public/assets/shared/desktop/image-category-thumbnail-headphones.png" alt="removebg"
-             class=" -translate-y-10 drop-shadow-2xl w-44 h-40">
-        <p class="-translate-y-10">HEADPHONES</p>
-        <div class="flex flex-row items-center justify-center w-full -translate-y-8">
-          <p class="pr-3">SHOP</p>
-          <img src="/public/assets/shared/desktop/icon-arrow-right.svg" alt="logo">
-        </div>
-      </div>
-
-      <div class="flex flex-col items-center justify-center bg-main w-full h-44 rounded-lg">
-        <img src="/public/assets/shared/desktop/image-category-thumbnail-speakers.png" alt="removebg"
-             class=" -translate-y-10 drop-shadow-2xl w-44 h-40 ">
-        <p class="-translate-y-10">SPEAKERS</p>
-        <div class="flex flex-row items-center justify-center -translate-y-8 w-full">
-          <p class="pr-3">SHOP</p>
-          <img src="/public/assets/shared/desktop/icon-arrow-right.svg" alt="logo">
-        </div>
-      </div>
-
-      <div class="flex flex-col items-center justify-center bg-main w-full h-44 rounded-lg">
-        <img src="/public/assets/shared/desktop/image-category-thumbnail-earphones.png" alt="removebg"
-             class=" -translate-y-10 drop-shadow-2xl w-44 h-40">
-        <p class="-translate-y-10">EARPHONES</p>
-        <div class="flex flex-row items-center justify-center -translate-y-8 w-full">
-          <p class="pr-3">SHOP</p>
-          <img src="/public/assets/shared/desktop/icon-arrow-right.svg" alt="logo">
-        </div>
-      </div>
-    </div>
+    <imageCpt/>
 
     <div
         class="flex flex-col items-center justify-center bg-hov w-full rounded-lg mt-[120px] pt-[55px] pb-8 overflow-hidden lg:flex-row lg:px-28 lg:gap-36">
@@ -111,7 +84,8 @@ export default {
         <img src="/public/assets/home/desktop/image-earphones-yx1.jpg" alt="earphones" class="rounded-lg w-full">
       </div>
 
-      <div class="w-full lg:w-1/2 h-auto object-cover bg-main py-10 pl-6 rounded-lg lg:py-[95px] lg:pl-[95px]">
+      <div
+          class="w-full lg:w-1/2 h-auto object-cover bg-main py-10 pl-6 rounded-lg lg:py-[95px] lg:pl-[95px] ">
         <p class="text-[28px] font-bold pb-3 tracking-[2px]">YX1 EARPHONES</p>
         <button class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3 ">
           {{ bouton }}
@@ -119,7 +93,9 @@ export default {
       </div>
     </div>
 
-    <textImg/>
+    <div class="mt-[120px]">
+      <textImg/>
+    </div>
 
   </div>
 
