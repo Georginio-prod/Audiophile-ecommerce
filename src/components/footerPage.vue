@@ -12,12 +12,12 @@
             </RouterLink>
           </button>
           <button class="hover:text-hov">
-            <RouterLink to="/HeadPhones">
+            <RouterLink :to="{ path: '/HeadPhones', query: { button: 'HEADPHONES' } }">
               HEADPHONES
             </RouterLink>
           </button>
           <button class="hover:text-hov">
-            <RouterLink to="/Speakers">
+            <RouterLink :to="{ path: '/Speakers', query: { button: 'SPEAKERS' } }">
               SPEAKERS
             </RouterLink>
           </button>
