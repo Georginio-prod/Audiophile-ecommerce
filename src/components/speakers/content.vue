@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-white px-6 pt-40 sm:px-10 md:px-20 lg:px-40 gap-y-[120px] flex flex-col">
+  <div class=" bg-white px-6 pt-16 lg:pt-40 sm:px-10 md:px-20 lg:px-40 gap-y-[120px] flex flex-col">
     <div class="flex flex-col max-w-7xl lg:flex-row lg:gap-16 xl:gap-32">
       <div class=" lg:w-1/2">
         <img
@@ -14,7 +14,7 @@
           New Product
         </h1>
         <p class="text-[28px] sm:text-[32px] tracking-wider font-bold lg:text-4xl lg:tracking-[1.43px] lg:pt-4 lg:pb-8">
-          ZX9
+          ZX9 <br>
           SPEAKER
         </p>
         <h2 class="opacity-50 text-[15px] leading-[25px] font-medium lg:pb-10">
@@ -44,7 +44,7 @@
           class="text-center text-black flex flex-col gap-6 lg:text-start lg:w-1/2 lg:max-w-[445px] lg:transform lg:translate-y-14 lg:gap-0 lg:order-1">
 
         <p class="text-[28px] sm:text-[32px] tracking-wider font-bold lg:text-4xl lg:tracking-[1.43px] lg:pt-4 lg:pb-8">
-          ZX7
+          ZX7 <br>
           SPEAKER
         </p>
         <h2 class="opacity-50 text-[15px] leading-[25px] font-medium lg:pb-10">

@@ -22,7 +22,7 @@
             </RouterLink>
           </button>
           <button class="hover:text-hov">
-            <RouterLink to="/Earphones">
+            <RouterLink :to="{ path: '/Earphones', query: { button: 'EARPHONES' } }">
               EARPHONES
             </RouterLink>
           </button>
