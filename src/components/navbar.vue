@@ -30,21 +30,29 @@
           <li>
             <RouterLink to="/" class="relative inline-block group hover:!text-hov py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:dark:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               HOME
+              <span class="absolute left-0 -bottom-7 w-0 h-1  bg-hov transition-all duration-300 group-hover:w-full">
+              </span>
             </RouterLink>
           </li>
           <li>
             <RouterLink :to="{ path: '/HeadPhones', query: { button: 'HEADPHONES' } }" class="relative inline-block group hover:!text-hov py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:dark:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               HEADPHONES
+              <span class="absolute left-0 -bottom-7 w-0 h-1  bg-hov transition-all duration-300 group-hover:w-full">
+              </span>
             </RouterLink>
           </li>
           <li>
             <RouterLink :to="{ path: '/Speakers', query: { button: 'SPEAKERS' } }" class="relative inline-block group hover:!text-hov py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:dark:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               SPEAKERS
+              <span class="absolute left-0 -bottom-7 w-0 h-1  bg-hov transition-all duration-300 group-hover:w-full">
+              </span>
             </RouterLink>
           </li>
           <li>
             <RouterLink :to="{ path: '/Earphones', query: { button: 'EARPHONES' } }" class="relative inline-block group hover:!text-hov py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:dark:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
               EARPHONES
+              <span class="absolute left-0 -bottom-7 w-0 h-1  bg-hov transition-all duration-300 group-hover:w-full">
+              </span>
             </RouterLink>
           </li>
         </ul>
