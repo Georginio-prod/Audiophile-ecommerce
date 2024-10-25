@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-white px-6 pt-40 sm:px-10 md:px-20 lg:px-40 gap-y-[120px] flex flex-col">
+  <div class=" bg-white px-6 pt-16 lg:pt-40 sm:px-10 md:px-20 lg:px-40 gap-y-[120px] flex flex-col">
     <div class="flex flex-col max-w-7xl lg:flex-row lg:gap-16 xl:gap-32">
       <div class=" lg:w-1/2">
         <img
