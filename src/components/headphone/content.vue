@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-white px-6 pt-16 sm:px-10 md:px-20 lg:px-40 gap-y-[120px] flex flex-col">
+  <div class=" bg-white px-6 pt-16 lg:pt-40 sm:px-10 md:px-20 lg:px-40 gap-y-[120px] flex flex-col">
     <div class="flex flex-col max-w-7xl lg:flex-row lg:gap-16 xl:gap-32">
       <div class=" lg:w-1/2">
         <img
@@ -35,7 +35,7 @@
         <img
             src="/public/assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
             alt=""
-            class="rounded-lg w-full h-auto object-cover"
+            class="rounded-lg w-full h-auto object-cover pb-8"
         >
       </div>
       <div
@@ -63,7 +63,7 @@
         <img
             src="/public/assets/product-xx59-headphones/mobile/image-category-page-preview.jpg"
             alt=""
-            class="rounded-lg w-full h-auto object-cover"
+            class="rounded-lg w-full h-auto object-cover pb-8"
         >
       </div>
       <div
@@ -94,7 +94,7 @@
 
   </div>
 
-  <div class="px-6 pt-16 sm:px-10 md:px-20 lg:px-40 lg:py-40">
+  <div class="px-6 py-40 sm:px-10 md:px-20 lg:px-40 ">
     <textImg/>
   </div>
 
