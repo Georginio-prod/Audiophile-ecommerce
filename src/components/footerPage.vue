@@ -3,13 +3,29 @@
     <div class="flex flex-col items-center justify-center text-white lg:px-40 lg:items-start lg:justify-start">
       <div class="lg:flex lg:justify-between lg:items-center lg:w-full ">
         <div class="mt-[52px]">
-          <img src="/public/assets/audiophile 2.png" alt="logo">
+          <img alt="logo" src="/public/assets/audiophile 2.png">
         </div>
         <div class="flex flex-col items-center justify-center pt-12 gap-4 lg:flex-row text-[13px] lg:gap-8">
-          <button> HOME</button>
-          <button>HEADPHONES</button>
-          <button>SPEAKERS</button>
-          <button>EARPHONES</button>
+          <button class="hover:text-hov">
+            <RouterLink to="/">
+              HOME
+            </RouterLink>
+          </button>
+          <button class="hover:text-hov">
+            <RouterLink to="/HeadPhones">
+              HEADPHONES
+            </RouterLink>
+          </button>
+          <button class="hover:text-hov">
+            <RouterLink to="/Speakers">
+              SPEAKERS
+            </RouterLink>
+          </button>
+          <button class="hover:text-hov">
+            <RouterLink to="/Earphones">
+              EARPHONES
+            </RouterLink>
+          </button>
         </div>
       </div>
 
@@ -31,9 +47,9 @@
       </div>
 
       <div class="flex justify-center items-center gap-4 mb-[38px] lg:mb-0 lg:justify-end lg:w-full lg:-translate-y-28">
-        <img src="/public/assets/shared/desktop/icon-facebook.svg" alt="facebook" class="w-auto h-auto">
-        <img src="/public/assets/shared/desktop/icon-twitter.svg" alt="twitter" class="w-auto h-auto">
-        <img src="/public/assets/shared/desktop/icon-instagram.svg" alt="instagram" class="w-auto h-auto">
+        <img alt="facebook" class="w-auto h-auto" src="/public/assets/shared/desktop/icon-facebook.svg">
+        <img alt="twitter" class="w-auto h-auto" src="/public/assets/shared/desktop/icon-twitter.svg">
+        <img alt="instagram" class="w-auto h-auto" src="/public/assets/shared/desktop/icon-instagram.svg">
       </div>
 
     </div>

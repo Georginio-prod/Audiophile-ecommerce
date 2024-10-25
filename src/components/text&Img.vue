@@ -1,11 +1,11 @@
 <template>
-    <div>
-        <div class="flex flex-col items-center justify-center w-full lg:flex lg:flex-row mt-[120px] gap-10 lg:gap-24">
+  <div>
+    <div class="flex flex-col items-center justify-center w-full lg:flex lg:flex-row  gap-10 lg:gap-24">
       <div class="lg:order-2">
-        <img src="/public/assets/shared/mobile/image-best-gear.jpg" alt="image" class="rounded-lg lg:hidden">
+        <img alt="image" class="rounded-lg lg:hidden" src="/public/assets/shared/mobile/image-best-gear.jpg">
 
-        <img src="/public/assets/shared/desktop/image-best-gear.jpg" alt="image"
-             class="rounded-lg hidden lg:block ">
+        <img alt="image" class="rounded-lg hidden lg:block "
+             src="/public/assets/shared/desktop/image-best-gear.jpg">
 
       </div>
 
@@ -22,6 +22,6 @@
         </h3>
       </div>
     </div>
-    </div>
+  </div>
 </template>
 
