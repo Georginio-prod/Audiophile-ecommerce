@@ -78,6 +78,8 @@
 <script setup>
 // Vous pouvez ajouter ici la logique du composant si nécessaire
 import ImageCpt from "@/components/imageCpt.vue";
-
 import textImg from "@/components/text&Img.vue";
+import Divider from "@/components/divider.vue";
+
+
 </script>
