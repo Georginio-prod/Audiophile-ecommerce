@@ -46,7 +46,7 @@ export default {
 
     <!-- Image section for large screens -->
     <div class="hidden lg:block lg:relative lg:transform lg:-translate-y-20 lg:pl-20 z-10">
-      <img src="/public/assets/Bitmap.png" alt="Product Image" class="w-full h-auto">
+      <img src="/public/assets/Bitmap.png" alt="Product Image" class="w-full h-auto pt-3">
     </div>
   </div>
 </template>
