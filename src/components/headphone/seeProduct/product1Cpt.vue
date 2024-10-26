@@ -38,7 +38,11 @@ export default {
 </script>
 
 <template>
+  <p class="flex px-6 lg:px-40 lg:translate-y-28 translate-y-12 opacity-50">
+    <RouterLink :to="{ path: '/HeadPhones', query: { button: 'HEADPHONES' } }">Go Back</RouterLink>
+  </p>
   <div class="bg-white px-6 py-16 lg:py-40 sm:px-10 md:px-20 lg:px-40 lg:gap-40 flex flex-col gap-[88px]">
+
     <div class="flex flex-col max-w-7xl lg:flex-row lg:gap-16 xl:gap-32">
       <div class="lg:w-1/2">
         <img
