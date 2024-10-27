@@ -143,7 +143,7 @@ export default {
       </p>
       <div class="flex flex-col lg:flex-row gap-8">
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/shared/desktop/image-xx99-mark-one-headphones.jpg" alt=""
+          <img src="/public/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg" alt=""
                class="rounded-lg lg:block hidden">
 
           <img src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg" alt=""
@@ -161,9 +161,10 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/shared/desktop/image-xx59-headphones.jpg" alt="" class="rounded-lg lg:block hidden">
+          <img src="/public/assets/product-xx59-headphones/desktop/image-product.jpg" alt=""
+               class="rounded-lg lg:block hidden">
 
-          <img src="/public/assets/shared/mobile/image-zx9-speaker.jpg" alt=""
+          <img src="/public/assets/shared/mobile/image-xx59-headphones.jpg" alt=""
                class="rounded-lg lg:hidden">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX59
@@ -177,9 +178,10 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/shared/desktop/image-zx9-speaker.jpg" alt="" class="rounded-lg lg:block hidden">
+          <img src="/public/assets/product-zx9-speaker/desktop/image-product.jpg" alt=""
+               class="rounded-lg lg:block hidden">
 
-          <img src="/public/assets/shared/mobile/image-xx59-headphones.jpg" alt=""
+          <img src="/public/assets/shared/mobile/image-zx9-speaker.jpg" alt=""
                class="rounded-lg lg:hidden">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             ZX9 SPEAKER
