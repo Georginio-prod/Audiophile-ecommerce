@@ -9,11 +9,11 @@ export default {
     const titre1 = ref("FEATURES")
     const titre2 = ref("IN THE BOX")
     const items = ref([
-      '1x Headphone Unit',
+      '2x Headphone Unit',
       '2x Replacement Earcups',
       '1x User Manual',
-      '1x 3.5mm 5m Audio Cable',
-      '1x Travel Bag'
+      '1x 7.5mm 5m Audio Cable',
+      '1x 7/5m Optical Cable'
     ])
 
     return {titre1, titre2, items}
@@ -39,7 +39,7 @@ export default {
 
 <template>
   <p class="flex px-6 lg:px-40 lg:translate-y-28 translate-y-12 opacity-50">
-    <RouterLink :to="{ path: '/HeadPhones', query: { button: 'HEADPHONES' } }">Go Back</RouterLink>
+    <RouterLink :to="{  path: '/Speakers', query: { button: 'SPEAKERS' } }">Go Back</RouterLink>
   </p>
   <div class="bg-white px-6 py-16 lg:py-40 sm:px-10 md:px-20 lg:px-40 lg:gap-40 flex flex-col gap-[88px]">
 
@@ -48,24 +48,24 @@ export default {
         <img
             alt=""
             class="rounded-lg w-full h-auto object-cover"
-            src="/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
+            src="/public/assets/product-zx7-speaker/desktop/image-product.jpg"
         >
       </div>
       <div
           class="text-black flex flex-col gap-6 lg:text-start lg:w-1/2 lg:max-w-[445px] lg:transform lg:gap-0">
-        <h1 class="text-hov tracking-[10px] uppercase text-sm pt-8">
-          New Product
-        </h1>
+        <!--        <h1 class="text-hov tracking-[10px] uppercase text-sm pt-8">-->
+        <!--          New Product-->
+        <!--        </h1>-->
         <p class="text-[28px] sm:text-[32px] tracking-wider font-bold lg:text-4xl lg:tracking-[1.43px] lg:pt-4">
-          XX99 Mark II Headphones
+          ZX7 <br>
+          SPEAKER
         </p>
         <h2 class="opacity-50 text-[15px] leading-[25px] font-medium lg:py-8">
-          The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone
-          experience by reproducing the balanced depth and precision of studio-quality sound.
-        </h2>
+          Stream high quality sound wirelessly with minimal to no loss. The ZX7 speaker uses high-end audiophile
+          components that represents the top of the line powered speakers for home or studio use. </h2>
 
         <h3 class="text-lg font-bold tracking-[1.29px] lg:pb-11">
-          $ 2,99
+          $ 3,500
         </h3>
         <div class="flex gap-4">
           <div class="flex justify-between items-center bg-[#F1F1F1] px-4 py-1 w-28">
@@ -76,7 +76,7 @@ export default {
 
           <button
               class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-            <RouterLink to="/Product1">ADD TO CART</RouterLink>
+            <RouterLink to="/SpeakerPr1">ADD TO CART</RouterLink>
           </button>
         </div>
       </div>
@@ -88,19 +88,16 @@ export default {
           {{ titre1 }}
         </p>
         <h1 class="opacity-50">
-          Featuring a genuine leather head strap and premium earcups, these headphones deliver
-          superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for
-          any situation. Whether you’re taking a business call or just in your
-          own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.
-        </h1>
+          Reap the advantages of a flat diaphragm tweeter cone. This provides a fast response rate and excellent high
+          frequencies that lower tiered bookshelf speakers cannot provide. The woofers are made from aluminum that
+          produces a unique and clear sound. XLR inputs allow you to connect to a mixer for more advanced usage. </h1>
         <br>
         <h1 class="opacity-50">
-          The advanced Active Noise Cancellation with built-in equalizer allow you
-          to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with
-          your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery
-          life, the XX99 Mark II headphones
-          gives you superior sound, cutting-edge technology, and a modern design aesthetic.
-        </h1>
+          The ZX7 speaker is the perfect blend of stylish design and high performance. It houses an encased MDF wooden
+          enclosure which minimises acoustic resonance. Dual connectivity allows pairing through bluetooth or
+          traditional optical and RCA input. Switch input sources and control volume at your finger tips with the
+          included wireless remote. This versatile speaker is equipped to deliver an authentic listening
+          experience.</h1>
       </div>
 
       <div class="lg:w-4/12 w-full">
@@ -121,19 +118,19 @@ export default {
     <div class="flex flex-col lg:flex-row gap-5 lg:gap-7">
       <div class="flex flex-col gap-5 lg:gap-[29px]">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/shared/tablet/image-best-gear.jpg">
+             src="/public/assets/product-zx9-speaker/mobile/image-gallery-1.jpg">
         <img alt="image" class="rounded-lg hidden lg:block h-[280px] object-cover w-full"
-             src="/public/assets/shared/desktop/image-best-gear.jpg">
+             src="/public/assets/product-zx9-speaker/desktop/image-gallery-1.jpg">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg">
+             src="/public/assets/product-zx9-speaker/mobile/image-gallery-2.jpg">
         <img alt="image" class="rounded-lg lg:block hidden h-[280px] object-cover w-full"
-             src="/public/assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg">
+             src="/public/assets/product-zx9-speaker/desktop/image-gallery-2.jpg">
       </div>
       <div>
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg">
+             src="/public/assets/product-zx9-speaker/mobile/image-gallery-3.jpg">
         <img alt="image" class="rounded-lg lg:block hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg">
+             src="/public/assets/product-zx9-speaker/desktop/image-gallery-3.jpg">
       </div>
     </div>
 
@@ -143,12 +140,29 @@ export default {
       </p>
       <div class="flex flex-col lg:flex-row gap-8">
         <div class="flex flex-col justify-center items-center">
+          <img src="/public/assets/product-zx9-speaker/desktop/image-product.jpg" alt=""
+               class="rounded-lg lg:block hidden">
+
+          <img src="/public/assets/shared/mobile/image-zx9-speaker.jpg" alt=""
+               class="rounded-lg lg:hidden">
+
+          <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
+            ZX7 SPEAKER
+          </p>
+          <div>
+            <button
+                class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+              SEE PRODUCT
+            </button>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
           <img src="/public/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg" alt=""
                class="rounded-lg lg:block hidden">
 
           <img src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg" alt=""
                class="rounded-lg lg:hidden">
-
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX99 MARK I
           </p>
@@ -168,23 +182,6 @@ export default {
                class="rounded-lg lg:hidden">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX59
-          </p>
-          <div>
-            <button
-                class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-              SEE PRODUCT
-            </button>
-          </div>
-        </div>
-
-        <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/product-zx9-speaker/desktop/image-product.jpg" alt=""
-               class="rounded-lg lg:block hidden">
-
-          <img src="/public/assets/shared/mobile/image-zx9-speaker.jpg" alt=""
-               class="rounded-lg lg:hidden">
-          <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
-            ZX9 SPEAKER
           </p>
           <div>
             <button

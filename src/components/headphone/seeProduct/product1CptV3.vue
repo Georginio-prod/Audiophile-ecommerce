@@ -13,7 +13,7 @@ export default {
       '2x Replacement Earcups',
       '1x User Manual',
       '1x 3.5mm 5m Audio Cable',
-      '1x Travel Bag'
+      // '1x Travel Bag'
     ])
 
     return {titre1, titre2, items}
@@ -44,28 +44,29 @@ export default {
   <div class="bg-white px-6 py-16 lg:py-40 sm:px-10 md:px-20 lg:px-40 lg:gap-40 flex flex-col gap-[88px]">
 
     <div class="flex flex-col max-w-7xl lg:flex-row lg:gap-16 xl:gap-32">
-      <div class="lg:w-1/2">
+      <div class="lg:w-1/2 pb-10">
         <img
             alt=""
             class="rounded-lg w-full h-auto object-cover"
-            src="/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
+            src="/public/assets/product-xx59-headphones/mobile/image-category-page-preview.jpg"
         >
       </div>
       <div
-          class="text-black flex flex-col gap-6 lg:text-start lg:w-1/2 lg:max-w-[445px] lg:transform lg:gap-0">
-        <h1 class="text-hov tracking-[10px] uppercase text-sm pt-8">
-          New Product
-        </h1>
+          class="text-black flex flex-col gap-6 lg:text-start lg:w-1/2 lg:max-w-[445px] lg:translate-y-14 lg:gap-0">
+        <!--        <h1 class="text-hov tracking-[10px] uppercase text-sm pt-8">-->
+        <!--          New Product-->
+        <!--        </h1>-->
         <p class="text-[28px] sm:text-[32px] tracking-wider font-bold lg:text-4xl lg:tracking-[1.43px] lg:pt-4">
-          XX99 Mark II Headphones
+          XX59 <br>
+          Headphones
         </p>
         <h2 class="opacity-50 text-[15px] leading-[25px] font-medium lg:py-8">
-          The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone
-          experience by reproducing the balanced depth and precision of studio-quality sound.
+          Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The
+          stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.
         </h2>
 
         <h3 class="text-lg font-bold tracking-[1.29px] lg:pb-11">
-          $ 2,99
+          $ 899
         </h3>
         <div class="flex gap-4">
           <div class="flex justify-between items-center bg-[#F1F1F1] px-4 py-1 w-28">
@@ -88,19 +89,17 @@ export default {
           {{ titre1 }}
         </p>
         <h1 class="opacity-50">
-          Featuring a genuine leather head strap and premium earcups, these headphones deliver
-          superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for
-          any situation. Whether you’re taking a business call or just in your
-          own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.
+          These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its
+          compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission
+          is assured by the latest wireless technology engineered for audio synchronization with videos.
         </h1>
         <br>
         <h1 class="opacity-50">
-          The advanced Active Noise Cancellation with built-in equalizer allow you
-          to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with
-          your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery
-          life, the XX99 Mark II headphones
-          gives you superior sound, cutting-edge technology, and a modern design aesthetic.
-        </h1>
+
+          More than a simple pair of headphones, this headset features a pair of built-in microphones for clear,
+          hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive
+          thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do
+          so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C. </h1>
       </div>
 
       <div class="lg:w-4/12 w-full">
@@ -121,19 +120,19 @@ export default {
     <div class="flex flex-col lg:flex-row gap-5 lg:gap-7">
       <div class="flex flex-col gap-5 lg:gap-[29px]">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/shared/tablet/image-best-gear.jpg">
+             src="/public/assets/product-xx59-headphones/mobile/image-gallery-1.jpg">
         <img alt="image" class="rounded-lg hidden lg:block h-[280px] object-cover w-full"
-             src="/public/assets/shared/desktop/image-best-gear.jpg">
+             src="/public/assets/product-xx59-headphones/desktop/image-gallery-1.jpg">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg">
+             src="/public/assets/product-xx59-headphones/mobile/image-gallery-2.jpg">
         <img alt="image" class="rounded-lg lg:block hidden h-[280px] object-cover w-full"
-             src="/public/assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg">
+             src="/public/assets/product-xx59-headphones/desktop/image-gallery-2.jpg">
       </div>
       <div>
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg">
+             src="/public/assets/product-xx59-headphones/mobile/image-gallery-3.jpg">
         <img alt="image" class="rounded-lg lg:block hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg">
+             src="/public/assets/product-xx59-headphones/desktop/image-gallery-3.jpg">
       </div>
     </div>
 
@@ -143,11 +142,11 @@ export default {
       </p>
       <div class="flex flex-col lg:flex-row gap-8">
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg" alt=""
-               class="rounded-lg lg:block hidden">
+          <img alt="" class="rounded-lg lg:block hidden"
+               src="/public/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg">
 
-          <img src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg" alt=""
-               class="rounded-lg lg:hidden">
+          <img alt="" class="rounded-lg lg:hidden"
+               src="/public/assets/shared/mobile/image-xx99-mark-two-headphones.jpg">
 
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX99 MARK I
@@ -161,11 +160,11 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/product-xx59-headphones/desktop/image-product.jpg" alt=""
-               class="rounded-lg lg:block hidden">
+          <img alt="" class="rounded-lg lg:block hidden"
+               src="/public/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg">
 
-          <img src="/public/assets/shared/mobile/image-xx59-headphones.jpg" alt=""
-               class="rounded-lg lg:hidden">
+          <img alt="" class="rounded-lg lg:hidden"
+               src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX59
           </p>
@@ -178,11 +177,11 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/product-zx9-speaker/desktop/image-product.jpg" alt=""
-               class="rounded-lg lg:block hidden">
+          <img alt="" class="rounded-lg lg:block hidden"
+               src="/public/assets/product-zx9-speaker/desktop/image-product.jpg">
 
-          <img src="/public/assets/shared/mobile/image-zx9-speaker.jpg" alt=""
-               class="rounded-lg lg:hidden">
+          <img alt="" class="rounded-lg lg:hidden"
+               src="/public/assets/shared/mobile/image-zx9-speaker.jpg">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             ZX9 SPEAKER
           </p>
