@@ -118,30 +118,27 @@ export default {
       </div>
     </div>
 
-    <div class="flex flex-col lg:flex-row gap-5">
+    <div class="flex flex-col lg:flex-row gap-5 lg:gap-7">
       <div class="flex flex-col gap-5 lg:gap-[29px]">
-        <img alt="image" class="rounded-lg lg:hidden" src="/public/assets/shared/tablet/image-best-gear.jpg">
-
-        <img alt="image" class="rounded-lg hidden lg:block h-[280px] object-cover"
+        <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
+             src="/public/assets/shared/tablet/image-best-gear.jpg">
+        <img alt="image" class="rounded-lg hidden lg:block h-[280px] object-cover w-full"
              src="/public/assets/shared/desktop/image-best-gear.jpg">
-
-        <img alt="image" class="rounded-lg lg:hidden"
+        <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
              src="/public/assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg">
-
-        <img alt="image" class="rounded-lg lg:block hidden h-[280px] "
+        <img alt="image" class="rounded-lg lg:block hidden h-[280px] object-cover w-full"
              src="/public/assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg">
       </div>
       <div>
-        <img alt="image" class="rounded-lg lg:hidden"
+        <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
              src="/public/assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg">
-
-        <img alt="image" class="rounded-lg lg:block hidden"
+        <img alt="image" class="rounded-lg lg:block hidden object-cover w-full"
              src="/public/assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg">
       </div>
     </div>
 
     <div class="flex flex-col justify-center items-center">
-      <p class="lg:pb-16 pb-10">
+      <p class="lg:pb-16 pb-10 text-3xl font-bold tracking-tight uppercase">
         you may also like
       </p>
       <div class="flex flex-col lg:flex-row gap-8">
