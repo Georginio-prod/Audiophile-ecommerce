@@ -38,6 +38,16 @@ const routes = [
         path: '/Product3',
         name: 'product3',
         component: () => import('@/views/Product3.vue')
+    },
+    {
+        path: '/SpeakerPr1',
+        name: 'SpeakerPr1',
+        component: () => import('@/views/Product3.vue')
+    },
+    {
+        path: '/SpeakerPr2',
+        name: 'SpeakerPr2',
+        component: () => import('@/views/Product3.vue')
     }
 ]
 
