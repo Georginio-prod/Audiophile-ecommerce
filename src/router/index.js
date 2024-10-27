@@ -42,12 +42,12 @@ const routes = [
     {
         path: '/SpeakerPr1',
         name: 'SpeakerPr1',
-        component: () => import('@/views/Product3.vue')
+        component: () => import('@/views/SpeakerPr1.vue')
     },
     {
         path: '/SpeakerPr2',
         name: 'SpeakerPr2',
-        component: () => import('@/views/Product3.vue')
+        component: () => import('@/views/SpeakerPr2.vue')
     }
 ]
 

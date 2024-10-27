@@ -57,7 +57,7 @@ export default {
         <!--          New Product-->
         <!--        </h1>-->
         <p class="text-[28px] sm:text-[32px] tracking-wider font-bold lg:text-4xl lg:tracking-[1.43px] lg:pt-4">
-          XX59
+          XX59 <br>
           Headphones
         </p>
         <h2 class="opacity-50 text-[15px] leading-[25px] font-medium lg:py-8">
@@ -143,10 +143,10 @@ export default {
       <div class="flex flex-col lg:flex-row gap-8">
         <div class="flex flex-col justify-center items-center">
           <img alt="" class="rounded-lg lg:block hidden"
-               src="/public/assets/shared/desktop/image-xx99-mark-one-headphones.jpg">
+               src="/public/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg">
 
           <img alt="" class="rounded-lg lg:hidden"
-               src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg">
+               src="/public/assets/shared/mobile/image-xx99-mark-two-headphones.jpg">
 
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX99 MARK I
@@ -160,10 +160,11 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center items-center">
-          <img alt="" class="rounded-lg lg:block hidden" src="/public/assets/shared/desktop/image-xx59-headphones.jpg">
+          <img alt="" class="rounded-lg lg:block hidden"
+               src="/public/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg">
 
           <img alt="" class="rounded-lg lg:hidden"
-               src="/public/assets/shared/mobile/image-zx9-speaker.jpg">
+               src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX59
           </p>
@@ -176,10 +177,11 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center items-center">
-          <img alt="" class="rounded-lg lg:block hidden" src="/public/assets/shared/desktop/image-zx9-speaker.jpg">
+          <img alt="" class="rounded-lg lg:block hidden"
+               src="/public/assets/product-zx9-speaker/desktop/image-product.jpg">
 
           <img alt="" class="rounded-lg lg:hidden"
-               src="/public/assets/shared/mobile/image-xx59-headphones.jpg">
+               src="/public/assets/shared/mobile/image-zx9-speaker.jpg">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             ZX9 SPEAKER
           </p>
