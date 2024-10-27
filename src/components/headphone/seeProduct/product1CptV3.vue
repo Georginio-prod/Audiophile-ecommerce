@@ -48,7 +48,7 @@ export default {
         <img
             alt=""
             class="rounded-lg w-full h-auto object-cover"
-            src="/public/assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
+            src="/public/assets/product-xx59-headphones/mobile/image-category-page-preview.jpg"
         >
       </div>
       <div
@@ -57,16 +57,16 @@ export default {
         <!--          New Product-->
         <!--        </h1>-->
         <p class="text-[28px] sm:text-[32px] tracking-wider font-bold lg:text-4xl lg:tracking-[1.43px] lg:pt-4">
-          XX99 Mark I Headphones
+          XX59
+          Headphones
         </p>
         <h2 class="opacity-50 text-[15px] leading-[25px] font-medium lg:py-8">
-          As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction
-          for audiophiles,
-          mixing engineers, and music aficionados alike in studios and on the go.
+          Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The
+          stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.
         </h2>
 
         <h3 class="text-lg font-bold tracking-[1.29px] lg:pb-11">
-          $ 1,750
+          $ 899
         </h3>
         <div class="flex gap-4">
           <div class="flex justify-between items-center bg-[#F1F1F1] px-4 py-1 w-28">
@@ -89,20 +89,17 @@ export default {
           {{ titre1 }}
         </p>
         <h1 class="opacity-50">
-          As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of audio
-          expertise, redefining the critical listening experience. This pair of closed-back headphones are made of
-          industrial, aerospace-grade materials
-          to emphasize durability at a relatively light weight of 11 oz.
+          These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its
+          compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission
+          is assured by the latest wireless technology engineered for audio synchronization with videos.
         </h1>
         <br>
         <h1 class="opacity-50">
 
-          From the handcrafted microfiber ear cushions to the robust metal
-          headband with inner damping element, the components work together
-          to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise
-          cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity,
-          a specially tuned cable is included with a balanced gold connector.
-        </h1>
+          More than a simple pair of headphones, this headset features a pair of built-in microphones for clear,
+          hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive
+          thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do
+          so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C. </h1>
       </div>
 
       <div class="lg:w-4/12 w-full">
@@ -123,19 +120,19 @@ export default {
     <div class="flex flex-col lg:flex-row gap-5 lg:gap-7">
       <div class="flex flex-col gap-5 lg:gap-[29px]">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg">
+             src="/public/assets/product-xx59-headphones/mobile/image-gallery-1.jpg">
         <img alt="image" class="rounded-lg hidden lg:block h-[280px] object-cover w-full"
-             src="/public/assets/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg">
+             src="/public/assets/product-xx59-headphones/desktop/image-gallery-1.jpg">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg">
+             src="/public/assets/product-xx59-headphones/mobile/image-gallery-2.jpg">
         <img alt="image" class="rounded-lg lg:block hidden h-[280px] object-cover w-full"
-             src="/public/assets/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg">
+             src="/public/assets/product-xx59-headphones/desktop/image-gallery-2.jpg">
       </div>
       <div>
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg">
+             src="/public/assets/product-xx59-headphones/mobile/image-gallery-3.jpg">
         <img alt="image" class="rounded-lg lg:block hidden object-cover w-full"
-             src="/public/assets/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg">
+             src="/public/assets/product-xx59-headphones/desktop/image-gallery-3.jpg">
       </div>
     </div>
 
@@ -145,11 +142,11 @@ export default {
       </p>
       <div class="flex flex-col lg:flex-row gap-8">
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/shared/desktop/image-xx99-mark-one-headphones.jpg" alt=""
-               class="rounded-lg lg:block hidden">
+          <img alt="" class="rounded-lg lg:block hidden"
+               src="/public/assets/shared/desktop/image-xx99-mark-one-headphones.jpg">
 
-          <img src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg" alt=""
-               class="rounded-lg lg:hidden">
+          <img alt="" class="rounded-lg lg:hidden"
+               src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg">
 
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX99 MARK I
@@ -163,10 +160,10 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/shared/desktop/image-xx59-headphones.jpg" alt="" class="rounded-lg lg:block hidden">
+          <img alt="" class="rounded-lg lg:block hidden" src="/public/assets/shared/desktop/image-xx59-headphones.jpg">
 
-          <img src="/public/assets/shared/mobile/image-zx9-speaker.jpg" alt=""
-               class="rounded-lg lg:hidden">
+          <img alt="" class="rounded-lg lg:hidden"
+               src="/public/assets/shared/mobile/image-zx9-speaker.jpg">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             XX59
           </p>
@@ -179,10 +176,10 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center items-center">
-          <img src="/public/assets/shared/desktop/image-zx9-speaker.jpg" alt="" class="rounded-lg lg:block hidden">
+          <img alt="" class="rounded-lg lg:block hidden" src="/public/assets/shared/desktop/image-zx9-speaker.jpg">
 
-          <img src="/public/assets/shared/mobile/image-xx59-headphones.jpg" alt=""
-               class="rounded-lg lg:hidden">
+          <img alt="" class="rounded-lg lg:hidden"
+               src="/public/assets/shared/mobile/image-xx59-headphones.jpg">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
             ZX9 SPEAKER
           </p>

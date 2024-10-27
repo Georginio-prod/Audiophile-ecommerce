@@ -81,7 +81,7 @@
         <div>
           <button
               class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-            SEE PRODUCT
+            <RouterLink to="/Product3">SEE PRODUCT</RouterLink>
           </button>
         </div>
 
