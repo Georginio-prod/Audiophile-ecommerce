@@ -121,7 +121,7 @@ export default {
     </div>
 
     <div class="flex flex-col lg:flex-row gap-5 lg:gap-7">
-      <div class="flex flex-col gap-5 lg:gap-[29px]">
+      <div class="flex flex-col gap-5 lg:gap-[29px] lg:basis-1/2">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
              src="/public/assets/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg">
         <img alt="image" class="rounded-lg hidden lg:block h-[280px] object-cover w-full"
@@ -131,10 +131,10 @@ export default {
         <img alt="image" class="rounded-lg lg:block hidden h-[280px] object-cover w-full"
              src="/public/assets/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg">
       </div>
-      <div>
+      <div class="lg:basis-1/2">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
              src="/public/assets/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg">
-        <img alt="image" class="rounded-lg lg:block hidden object-cover w-full"
+        <img alt="image" class="rounded-lg lg:block hidden  h-[590px] object-cover w-full"
              src="/public/assets/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg">
       </div>
     </div>
