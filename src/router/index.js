@@ -1,6 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Earphones from "@/views/Earphones.vue";
+import Earph from "@/views/EarphonePr1.vue";
 
 
 const routes = [
@@ -48,6 +49,11 @@ const routes = [
         path: '/SpeakerPr2',
         name: 'SpeakerPr2',
         component: () => import('@/views/SpeakerPr2.vue')
+    },
+    {
+        path: '/EarphonePr1',
+        name: 'EarphonePr1',
+        component: () => import('@/views/EarphonePr1.vue')
     }
 ]
 
