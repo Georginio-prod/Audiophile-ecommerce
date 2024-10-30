@@ -22,7 +22,7 @@
         </h2>
         <div>
           <button
-              class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+              class="bg-hov text-white py-3 px-7 tracking-wide hover:bg-[#FBAF85] sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
             <RouterLink to="/Product1">SEE PRODUCT</RouterLink>
           </button>
         </div>
@@ -50,7 +50,7 @@
         </h2>
         <div>
           <button
-              class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+              class="bg-hov text-white py-3  hover:bg-[#FBAF85] px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
             <RouterLink to="/Product2">SEE PRODUCT</RouterLink>
           </button>
         </div>
@@ -80,7 +80,7 @@
         </h2>
         <div>
           <button
-              class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+              class="bg-hov text-white py-3 hover:bg-[#FBAF85] px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
             <RouterLink to="/Product3">SEE PRODUCT</RouterLink>
           </button>
         </div>

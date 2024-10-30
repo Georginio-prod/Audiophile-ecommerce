@@ -39,7 +39,7 @@ export default {
 
       <!-- Button with hover effect -->
       <button
-          class="py-3 px-6 text-sm lg:text-[13px] text-white bg-orange-500 hover:bg-orange-400 transition duration-300 tracking-wide lg:mr-72">
+          class="py-3 px-6 text-sm lg:text-[13px] text-white bg-orange-500 hover:bg-[#FBAF85] transition duration-300 tracking-wide lg:mr-72">
         {{ buttons }}
       </button>
     </div>
