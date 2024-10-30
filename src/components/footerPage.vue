@@ -47,9 +47,9 @@
       </div>
 
       <div class="flex justify-center items-center gap-4 mb-[38px] lg:mb-0 lg:justify-end lg:w-full lg:-translate-y-28">
-        <img alt="facebook" class="w-auto h-auto" src="/public/assets/shared/desktop/icon-facebook.svg">
-        <img alt="twitter" class="w-auto h-auto" src="/public/assets/shared/desktop/icon-twitter.svg">
-        <img alt="instagram" class="w-auto h-auto" src="/public/assets/shared/desktop/icon-instagram.svg">
+        <img alt="facebook" class="w-auto h-auto hover-pink" src="/public/assets/shared/desktop/icon-facebook.svg">
+        <img alt="twitter" class="w-auto h-auto hover-pink" src="/public/assets/shared/desktop/icon-twitter.svg">
+        <img alt="instagram" class="w-auto h-auto hover-pink" src="/public/assets/shared/desktop/icon-instagram.svg">
       </div>
 
     </div>
@@ -60,3 +60,10 @@
 <script>
 export default {}
 </script>
+
+<style>
+/* Filtre pour donner une couleur rose au survol */
+.hover-pink:hover {
+  filter: brightness(0) saturate(100%) invert(60%) sepia(30%) saturate(450%) hue-rotate(355deg) brightness(92%) contrast(100%);
+}
+</style>

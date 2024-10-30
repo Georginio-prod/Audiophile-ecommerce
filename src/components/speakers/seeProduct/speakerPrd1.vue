@@ -152,7 +152,7 @@ export default {
           </p>
           <div>
             <button
-                class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+                class="bg-hov text-white py-3 px-7 hover:bg-[#FBAF85] tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
               SEE PRODUCT
             </button>
           </div>
@@ -169,7 +169,7 @@ export default {
           </p>
           <div>
             <button
-                class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+                class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
               SEE PRODUCT
             </button>
           </div>
@@ -186,7 +186,7 @@ export default {
           </p>
           <div>
             <button
-                class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+                class="bg-hov text-white py-3 hover:bg-[#FBAF85] px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
               SEE PRODUCT
             </button>
           </div>
