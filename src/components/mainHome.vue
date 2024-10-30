@@ -54,7 +54,9 @@ export default {
           Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
         </p>
         <button class="py-3 px-7 bg-black font-bold text-[13px] lg:mt-3 hover:bg-[#4C4C4C] ">
-          {{ bouton }}
+
+          <RouterLink to="/SpeakerPr1">{{ bouton }}</RouterLink>
+
         </button>
       </div>
 
@@ -66,7 +68,7 @@ export default {
         <p class="text-[28px] font-bold pb-2 tracking-[2px]">ZX7 SPEAKER</p>
         <button
             class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3 hover:bg-black hover:text-white">
-          {{ bouton }}
+          <RouterLink to="/SpeakerPr2"> {{ bouton }}</RouterLink>
         </button>
       </div>
 
@@ -90,7 +92,7 @@ export default {
         <p class="text-[28px] font-bold pb-3 tracking-[2px]">YX1 EARPHONES</p>
         <button
             class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3 hover:bg-black hover:text-white">
-          {{ bouton }}
+          <RouterLink to="/EarphonePr1"> {{ bouton }}</RouterLink>
         </button>
       </div>
     </div>

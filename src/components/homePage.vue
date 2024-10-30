@@ -40,13 +40,13 @@ export default {
       <!-- Button with hover effect -->
       <button
           class="py-3 px-6 text-sm lg:text-[13px] text-white bg-orange-500 hover:bg-[#FBAF85] transition duration-300 tracking-wide lg:mr-72">
-        {{ buttons }}
+        <RouterLink to="/Product1">{{ buttons }}</RouterLink>
       </button>
     </div>
 
     <!-- Image section for large screens -->
     <div class="hidden lg:block lg:relative lg:transform lg:-translate-y-20 lg:pl-20 z-10">
-      <img src="/public/assets/Bitmap.png" alt="Product Image" class="w-full h-auto pt-3">
+      <img alt="Product Image" class="w-full h-auto pt-3" src="/public/assets/Bitmap.png">
     </div>
   </div>
 </template>

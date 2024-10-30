@@ -76,7 +76,7 @@ export default {
 
           <button
               class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-            <!--            <RouterLink to="/EarphonePr1">ADD TO CART</RouterLink>-->
+            <RouterLink to="">ADD TO CART</RouterLink>
           </button>
         </div>
       </div>
@@ -152,7 +152,7 @@ export default {
           <div>
             <button
                 class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-              SEE PRODUCT
+              <RouterLink to="/Product2">SEE PRODUCT</RouterLink>
             </button>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default {
           <div>
             <button
                 class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-              SEE PRODUCT
+              <RouterLink to="/Product3">SEE PRODUCT</RouterLink>
             </button>
           </div>
         </div>
@@ -186,7 +186,7 @@ export default {
           <div>
             <button
                 class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-              SEE PRODUCT
+              <RouterLink to="/SpeakerPr1">SEE PRODUCT</RouterLink>
             </button>
           </div>
         </div>
