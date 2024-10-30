@@ -53,7 +53,7 @@ export default {
         <p class="text-sm font-medium opacity-75 text-center lg:text-left">
           Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
         </p>
-        <button class="py-3 px-7 bg-black font-bold text-[13px] lg:mt-3 ">
+        <button class="py-3 px-7 bg-black font-bold text-[13px] lg:mt-3 hover:bg-[#4C4C4C] ">
           {{ bouton }}
         </button>
       </div>
@@ -64,7 +64,8 @@ export default {
     <div class="relative flex justify-center items-center w-full lg:flex lg:flex-row mt-6 ">
       <div class="absolute inset-0 flex flex-col items-start justify-center text-black z-10 pl-6 lg:pl-24">
         <p class="text-[28px] font-bold pb-2 tracking-[2px]">ZX7 SPEAKER</p>
-        <button class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3">
+        <button
+            class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3 hover:bg-black hover:text-white">
           {{ bouton }}
         </button>
       </div>
@@ -87,7 +88,8 @@ export default {
       <div
           class="w-full lg:w-1/2 h-auto object-cover bg-main py-10 pl-6 rounded-lg lg:py-[95px] lg:pl-[95px] ">
         <p class="text-[28px] font-bold pb-3 tracking-[2px]">YX1 EARPHONES</p>
-        <button class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3 ">
+        <button
+            class="py-3 px-7 bg-transparent border border-black font-bold text-[13px] mt-3 hover:bg-black hover:text-white">
           {{ bouton }}
         </button>
       </div>

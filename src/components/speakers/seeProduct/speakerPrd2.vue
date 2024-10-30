@@ -116,7 +116,7 @@ export default {
     </div>
 
     <div class="flex flex-col lg:flex-row gap-5 lg:gap-7">
-      <div class="flex flex-col gap-5 lg:gap-[29px]">
+      <div class="flex flex-col gap-5 lg:gap-[29px] lg:basis-1/2">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
              src="/public/assets/product-zx9-speaker/mobile/image-gallery-1.jpg">
         <img alt="image" class="rounded-lg hidden lg:block h-[280px] object-cover w-full"
@@ -126,10 +126,10 @@ export default {
         <img alt="image" class="rounded-lg lg:block hidden h-[280px] object-cover w-full"
              src="/public/assets/product-zx9-speaker/desktop/image-gallery-2.jpg">
       </div>
-      <div>
+      <div class="lg:basis-1/2">
         <img alt="image" class="rounded-lg lg:hidden object-cover w-full"
              src="/public/assets/product-zx9-speaker/mobile/image-gallery-3.jpg">
-        <img alt="image" class="rounded-lg lg:block hidden object-cover w-full"
+        <img alt="image" class="rounded-lg lg:block hidden h-[590px] object-cover w-full"
              src="/public/assets/product-zx9-speaker/desktop/image-gallery-3.jpg">
       </div>
     </div>
@@ -151,7 +151,7 @@ export default {
           </p>
           <div>
             <button
-                class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+                class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
               SEE PRODUCT
             </button>
           </div>
@@ -168,7 +168,7 @@ export default {
           </p>
           <div>
             <button
-                class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+                class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
               SEE PRODUCT
             </button>
           </div>
@@ -185,7 +185,7 @@ export default {
           </p>
           <div>
             <button
-                class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+                class="bg-hov hover:bg-[#FBAF85] text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
               SEE PRODUCT
             </button>
           </div>

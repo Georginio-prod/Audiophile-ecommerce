@@ -24,7 +24,7 @@
         </h2>
         <div>
           <button
-              class="bg-hov text-white py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
+              class="bg-hov text-white py-3 hover:bg-[#FBAF85] px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
             <RouterLink to="/EarphonePr1">SEE PRODUCT</RouterLink>
           </button>
         </div>
