@@ -149,12 +149,12 @@ export default {
                src="/public/assets/shared/mobile/image-xx99-mark-two-headphones.jpg">
 
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
-            XX99 MARK I
+            XX99 MARK II
           </p>
           <div>
             <button
                 class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-              SEE PRODUCT
+              <RouterLink to="/Product1">SEE PRODUCT</RouterLink>
             </button>
           </div>
         </div>
@@ -166,12 +166,12 @@ export default {
           <img alt="" class="rounded-lg lg:hidden"
                src="/public/assets/shared/mobile/image-xx99-mark-one-headphones.jpg">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
-            XX59
+            XX99 MARK I
           </p>
           <div>
             <button
                 class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-              SEE PRODUCT
+              <RouterLink to="/Product2">SEE PRODUCT</RouterLink>
             </button>
           </div>
         </div>
@@ -188,7 +188,7 @@ export default {
           <div>
             <button
                 class="bg-hov text-white py-3 hover:bg-[#FBAF85] px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-              SEE PRODUCT
+              <RouterLink to="/SpeakerPr1">SEE PRODUCT</RouterLink>
             </button>
           </div>
         </div>

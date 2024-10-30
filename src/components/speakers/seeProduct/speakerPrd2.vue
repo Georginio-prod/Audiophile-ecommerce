@@ -169,7 +169,8 @@ export default {
           <div>
             <button
                 class="bg-hov text-white hover:bg-[#FBAF85] py-3 px-7 tracking-wide sm:w-auto hover:bg-opacity-90 transition-colors duration-300 text-[13px]">
-              SEE PRODUCT
+              <RouterLink to="/Product2">SEE PRODUCT</RouterLink>
+
             </button>
           </div>
         </div>
@@ -181,7 +182,7 @@ export default {
           <img src="/public/assets/shared/mobile/image-xx59-headphones.jpg" alt=""
                class="rounded-lg lg:hidden">
           <p class="font-bold tracking-[1.71px] text-2xl lg:pt-10 lg:pb-8 py-8">
-            XX59
+            <RouterLink to="/Product3">SEE PRODUCT</RouterLink>
           </p>
           <div>
             <button
